@@ -74,6 +74,9 @@
 ## 解决Win10修改编辑hosts文件无法保存的问题<br>
 请参照[传送门][20]的解决方案即可成功保存hosts文件。
 
+-------------------------------------
+## 解决github 克隆和上传代码速度太慢的问题<br>
+请参照[传送门][21]的解决方案即可。
   ----------------------
   [1]:https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/9180?fr=aladdin
   [2]:https://baike.baidu.com/item/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/295301?fr=aladdin
@@ -95,3 +98,4 @@
   [18]:https://github.com/seajs/seajs/issues/545
   [19]: https://blog.csdn.net/u013360850/article/details/77145661
   [20]:https://jingyan.baidu.com/article/624e7459b194f134e8ba5a8e.html
+  [21]:https://blog.csdn.net/sw277378347/article/details/44947013
