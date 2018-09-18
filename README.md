@@ -59,7 +59,21 @@
 ## 下面提供一些常用软件的下载链接（随时更新）：
   
   
-  
+  ----------------------
+## 解决从GitHub上下载文件慢的问题<br>
+从GitHub下载文件一直非常慢，查看下载链接发现最终被指向了Amazon的服务器，下载地址是http://github-cloud.s3.amazonaws.com<br>
+从国内访问Amazon非常慢，所以总是下载失败，解决方法是更改host文件，使该域名指向香港的服务器。<br>
+- Windows<br>
+更改C:\Windows\System32\drivers\etc\hosts文件，在文件中追加219.76.4.4 github-cloud.s3.amazonaws.com, 将域名指向该IP即可。<br>
+- Mac<br>
+执行 sudo vi /etc/hosts 追加 219.76.4.4 github-cloud.s3.amazonaws.com<br>
+
+具体请参照[传送门][19]。
+
+-------------------------
+## 解决Win10修改编辑hosts文件无法保存的问题<br>
+请参照[传送门][20]的解决方案即可成功保存hosts文件
+
   ----------------------
   [1]:https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/9180?fr=aladdin
   [2]:https://baike.baidu.com/item/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/295301?fr=aladdin
@@ -79,3 +93,5 @@
   [16]:http://www.tuicool.com/articles/eE7bE3
   [17]:http://www.worldhello.net/gotgithub/index.html
   [18]:https://github.com/seajs/seajs/issues/545
+  [19]: https://blog.csdn.net/u013360850/article/details/77145661
+  [20]:https://jingyan.baidu.com/article/624e7459b194f134e8ba5a8e.html
